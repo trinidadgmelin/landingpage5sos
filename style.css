@@ -1,0 +1,671 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    
+    background-color: #E4EBF3;
+
+    overflow-x: hidden;
+    
+}
+
+main {
+    width: 100%;
+    max-width: 1440px;
+}
+
+
+.elEvento {
+    
+    margin: 25px 100px 25px 100px;
+    align-items: center;
+    text-align: center;
+
+    background-image: url(img/estrella.png), url(img/estrella.png), url(img/estrella.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom left, center top, bottom right;
+    background-size: 100px, 150px, 130px;
+}
+
+.elEvento p {
+    font-weight: 500;
+}
+
+.elEvento ul {
+    list-style-type: none;
+}
+
+.elEvento h3 {
+    color: #292425;
+    font-weight: bold;
+    padding: 20px;
+    font-size: x-large;
+}
+
+.elEvento h5 {
+    font-size: medium;
+    margin: 0px;
+}
+
+header {
+    background-color: #F2336B;
+    margin: 0px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 5px;
+}
+
+.portada {
+    background-image: url(img/5sos.png);
+    background-position-x: 80%;
+    background-position-y: 70%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #292425;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: auto;
+    min-height: 100vh;
+}
+
+.portada h1 {
+    font-weight: bolder;
+    color: #F2336B;
+    padding: 200px 50px 20px 150px;
+    font-size: xx-large;
+    width: auto;
+    text-align: left;
+}
+
+.portada h3 {
+    font-weight: bolder;
+    color: #F2336B;
+    padding: 20px 0px 0px 150px;
+    font-size: large;
+    max-width: 500px;
+    text-align: left;
+    margin: 0;
+}
+
+
+.portada button {
+    background-color: #DEFF36;
+    color: #292425;
+    padding: 20px;
+    margin: 50px 0px 0px 150px;
+    border-style: none;
+    border-radius: 20px;
+}
+
+.portada button:hover {
+    background-color: #DEFF36;
+    color: #292425;
+    padding: 20px;
+    margin: 50px 0px 0px 150px;
+    height: auto;
+    font-weight: 850;
+    font-style: italic;
+    text-decoration: underline;
+    
+}
+
+img {
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+
+.cardOpiniones{
+    
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 500px;
+}
+
+.opiniones {
+     margin: 0px 100px 0px 100px;
+}
+
+.opiniones h3 {
+    font-weight: bolder;
+    color: #292425;
+    padding: 20px;
+    font-size: x-large;
+
+    background-image: url(img/estrella.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    
+}
+
+.card.w-50.op1 {
+    width: 100%;
+    background-image: url(img/op1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 25px;
+}
+
+.card.w-50.op1 p {
+    font-weight: bolder;
+    text-align: center;
+    padding: 55% 20% 25% 25%;
+}
+
+.card.w-50.op2 {
+    width: 100%;
+    background-image: url(img/op2.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 25px;
+}
+
+.card.w-50.op2 p {
+    font-weight: bolder;
+    text-align: center;
+    padding: 50% 30% 25% 20%;
+}
+
+.card.w-50.op3 {
+    width: 100%;
+    background-image: url(img/op3.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 25px;
+}
+
+.card.w-50.op3 p {
+    font-weight: bolder;
+    text-align: center;
+    padding: 60% 15% 15% 15%;
+}
+
+.fechas {
+    
+     margin: 25px 100px 25px 100px;
+}
+
+.fechas ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+    gap: 60px;
+}
+
+.fechas h3 {
+    color: #292425;
+    font-weight: bold;
+    padding: 20px;
+    font-size: x-large;
+
+    background-image: url(img/estrella.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+
+.card-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+
+.elEvento, .opiniones, .fechas {
+    margin: 50px auto;
+    width: 80%;
+}
+
+img {
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+
+.formulario {
+    background-image: url(img/estrellas.png);
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    color: #292425;
+    padding: 10px;
+    margin: 20px;
+    
+}
+
+.formulario h3 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: #292425;
+    background-color: #F2336B;
+    margin: 30px auto;
+    padding: 2vh;
+    border-radius: 20px;
+    width: 400px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.formulario h5 {
+    text-align: center;
+}
+
+form input {
+    color: #292425;
+    border-color: #F2336B;
+    border-radius: 5px;
+    width: 400px;
+    height: 20px;
+    align-items: center;
+}
+
+#botonEnviar {
+    background-color: #F2336B;
+    color: #292425;
+    padding: 10px;
+    margin: 0px;
+    border-style: none;
+    border-radius: 20px;
+    width: 200px;
+    height: auto;
+    font-weight: bold;
+}
+
+#botonEnviar:hover {
+    background-color: #F2336B;
+    color: #292425;
+    padding: 10px;
+    margin: 0px;
+    width: 200px;
+    height: auto;
+    font-weight: 900;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.feedback {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292425;
+    color: #e4ebf3;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 40%;
+    height: 40%;
+    background-image: url(img/estrella.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    text-shadow: 
+         2px  0px 0px rgb(41, 36, 37, 0.5), 
+        -2px  0px 0px rgb(41, 36, 37, 0.5), 
+         0px  2px 0px rgb(41, 36, 37, 0.5), 
+         0px -2px 0px rgb(41, 36, 37, 0.5),
+         1.5px  1.5px 0px rgb(41, 36, 37, 0.5), 
+        -1.5px -1.5px 0px rgb(41, 36, 37, 0.5), 
+         1.5px -1.5px 0px rgb(41, 36, 37, 0.5), 
+        -1.5px  1.5px 0px rgb(41, 36, 37, 0.5);
+    
+}
+
+.feedback p {
+    width: 50%;
+}
+
+.oculto {
+    display: none !important;
+}
+
+
+footer {
+    padding: 20px;
+    background-image: url("img/footer5sos.jpeg");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #E4EBF3;
+    display: grid;
+    grid-template-columns: 3fr auto 0.5fr;
+    align-items: center;
+}
+
+footer p {
+    grid-column: 2;
+    margin: 0;
+    line-height: 1.2;
+    font-weight: 500;
+    width: 350px;
+}
+
+footer ul {
+    grid-column: 3;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin: auto;
+    color: #E4EBF3;
+    justify-self: center;
+}
+
+@media (max-width: 700px) {
+
+
+    .portada {
+    background-image: url(img/5sos.png);
+    background-position-y: 90%;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #292425;
+    position: relative;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%; 
+    padding: 20px 0;
+    box-sizing: border-box;
+    }
+    
+.portada h1 {
+    font-weight: bolder;
+    color: #F2336B;
+    padding: 10px 0px 20px 0px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    box-sizing: border-box;
+    font-size: x-large;
+}
+
+.portada h3 {
+    font-weight: bolder;
+    color: #F2336B;
+    padding: 0px 0px 10px 20px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    box-sizing: border-box;
+    font-size: medium;
+}
+.portada button {
+    background-color: #DEFF36;
+    color: #292425;
+    border-style: none;
+    border-radius: 20px;
+    margin: 400px auto 30px auto;
+    align-self: center;
+    width: fit-content;
+}
+
+.portada button:hover {
+    background-color: #DEFF36;
+    color: #292425;
+    margin: 400px auto 30px auto;
+    align-self: center;
+    width: fit-content;
+    font-weight: 900;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+
+    .elEvento {
+        flex-direction: column;
+        margin: 20px;
+
+        background-image: url(img/estrella.png), url(img/estrella.png), none;
+        background-position: bottom right, center left, 0 0; 
+        background-size: 100px, 50px, 0;
+        background-repeat: no-repeat, no-repeat;
+    }
+
+    .fechas {
+        margin: 20px;
+    }
+
+    .fechas ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 20px;
+    gap: 20px;
+    }
+
+    .opiniones {
+        margin: 20px;
+    }
+
+    .cardOpiniones {
+        flex-direction: column;
+        margin: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    
+.card.w-50.op1 {
+    width: auto;
+    background-image: url(img/op1.jpg);
+    background-position: left center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    min-height: 250px;
+}
+
+.card.w-50.op1 p {
+    font-weight: bolder;
+    text-align: center;
+    font-size: small;
+    padding: 40px 90px 50px 40px;
+}
+
+.card.w-50.op2 {
+    width: auto;
+    background-image: url(img/op2.jpg);
+    background-position: left center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 250px;
+}
+
+.card.w-50.op2 p {
+    font-weight: bolder;
+    text-align: center;
+    font-size: small;
+    padding: 10px 130px 30px 50px;
+}
+
+.card.w-50.op3 {
+    width: auto;
+    background-image: url(img/op3.jpg);
+    background-position: left center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 250px;
+}
+
+.card.w-50.op3 p {
+    font-weight: bolder;
+    text-align: center;
+    font-size: small;
+    padding: 40px 70px 20px 20px;
+}
+
+
+.formulario h3 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: #292425;
+    background-color: #F2336B;
+    margin: 30px auto;
+    padding: 2vh;
+    border-radius: 20px;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+}
+
+
+.formulario h5 {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    font-size: medium;
+}
+
+
+.feedback {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292425;
+    color: #e4ebf3;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 30%;
+    background-image: url(img/estrella.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    text-shadow: 
+         2px  0px 0px rgb(41, 36, 37, 0.5), 
+        -2px  0px 0px rgb(41, 36, 37, 0.5), 
+         0px  2px 0px rgb(41, 36, 37, 0.5), 
+         0px -2px 0px rgb(41, 36, 37, 0.5),
+         1.5px  1.5px 0px rgb(41, 36, 37, 0.5), 
+        -1.5px -1.5px 0px rgb(41, 36, 37, 0.5), 
+         1.5px -1.5px 0px rgb(41, 36, 37, 0.5), 
+        -1.5px  1.5px 0px rgb(41, 36, 37, 0.5);
+}
+
+
+.feedback p {
+    width: 50%;
+}
+
+form input {
+    color: #292425;
+    border-color: #F2336B;
+    border-radius: 5px;
+    width: 80%;
+    height: 20px;
+    align-items: center;
+}
+
+footer {
+    padding: 20px;
+    background-image: url("img/footer5sos.jpeg");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #E4EBF3;
+    display: grid;
+    grid-template-columns: 3fr auto 0.5fr;
+    align-items: center;
+}
+
+footer p {
+    grid-column: 2;
+    margin: 0;
+    line-height: 1.2;
+    font-weight: 600;
+    font-size: small;
+    text-shadow: 
+         2px  0px 0px rgb(41, 36, 37, 0.5), 
+        -2px  0px 0px rgb(41, 36, 37, 0.5), 
+         0px  2px 0px rgb(41, 36, 37, 0.5), 
+         0px -2px 0px rgb(41, 36, 37, 0.5),
+         1.5px  1.5px 0px rgb(41, 36, 37, 0.5), 
+        -1.5px -1.5px 0px rgb(41, 36, 37, 0.5), 
+         1.5px -1.5px 0px rgb(41, 36, 37, 0.5), 
+        -1.5px  1.5px 0px rgb(41, 36, 37, 0.5);
+}
+
+footer ul {
+    grid-column: 3;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin: auto;
+    color: #E4EBF3;
+    justify-self: center;
+}
+
+}
