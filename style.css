@@ -323,6 +323,7 @@ form input {
     position: fixed;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     background-color: #292425;
     color: #e4ebf3;
@@ -355,6 +356,28 @@ form input {
 
 .feedback p {
     width: 50%;
+}
+
+.feedback button {
+    background-color: #DEFF36;
+    color: #292425;
+    padding: 10px;
+    margin: 0px;
+    border-style: none;
+    border-radius: 20px;
+    width: 100px;
+    height: auto;
+    font-weight: bold;
+}
+
+.feedback button:hover {
+    background-color: #DEFF36;
+    color: #292425;
+    padding: 10px;
+    margin: 0px;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
 }
 
 .oculto {

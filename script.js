@@ -2,6 +2,7 @@ var input_nombre = document.getElementById("nombre");
 var input_email = document.getElementById("email");
 var input_submit = document.getElementById("botonEnviar");
 var elemento_formulario = document.getElementById("formulario");
+var elemento_feedback = document.getElementById("feedback");
 
 input_submit.addEventListener("click", feedbackFormulario); 
 
@@ -24,4 +25,15 @@ function feedbackFormulario(event) {
 
     elemento_formulario = document.getElementById("formulario");
     elemento_formulario.classList.add("oculto");
+
+    
+    var botonAceptar = document.getElementById("botonAceptar");
+    botonAceptar.addEventListener("click", cerrarFeedback);
+}
+
+function cerrarFeedback() {
+
+    elemento_feedback.classList.add("oculto");
+    elemento_formulario.classList.remove("oculto");
+    
 }
